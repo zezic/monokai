@@ -12,7 +12,7 @@
   "engines": {
     "atom": ">0.39.0"
   },
-  "readme": "# Monokai Muted theme\n\nA monokai syntax theme for Atom .\n\nForked from [kevinsawicki repo](https://github.com/kevinsawicki/monokai)\n![](https://raw.githubusercontent.com/zezic/monokai-muted-syntax/master/monokai-muted-scrot.png)\n",
+  "readme": "# Monokai Muted theme\n\nA monokai syntax theme for Atom .\n\nForked from [kevinsawicki repo](https://github.com/kevinsawicki/monokai)\n![](https://raw.githubusercontent.com/zezic/monokai-muted-syntax/master/monokai-muted-scrot.png)\nDifference between original Monokai and Monokai Muted:\n![](https://raw.githubusercontent.com/zezic/monokai-muted-syntax/master/monokai-diff.gif)\n",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/zezic/monokai-muted-syntax/issues"
