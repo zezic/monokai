@@ -4,6 +4,24 @@ atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
+  .entity.name.function,
+  .meta.require,
+  .support.function.any-method,
+  .meta.function-call,
+  .support.function,
+  .keyword.other.special-method,
+  .meta.block-level,
+  .meta.function-call.method.with-arguments .variable.function,
+  .source.js .meta.function-call.method.without-arguments.js .variable.function.js {
+      color: @light-ghost-white;
+  }
+
+  .punctuation,
+  .bracket,
+  .brace {
+    color: @brown;
+  }
+
   .invisible-character {
     color: @syntax-invisible-character-color;
   }

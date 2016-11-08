@@ -1,12 +1,31 @@
 {
-  "name": "monokai",
+  "name": "monokai-muted-syntax",
   "theme": "syntax",
-  "version": "0.18.0",
+  "version": "0.0.0",
   "private": true,
-  "description": "A monokai theme",
-  "repository": "https://github.com/kevinsawicki/monokai",
+  "description": "A monokai muted theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zezic/monokai-muted-syntax.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">0.39.0"
+  },
+  "readme": "# Monokai Muted theme\n\nA monokai syntax theme for Atom .\n\nForked from [kevinsawicki repo](https://github.com/kevinsawicki/monokai)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/zezic/monokai-muted-syntax/issues"
+  },
+  "homepage": "https://github.com/zezic/monokai-muted-syntax#readme",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }
