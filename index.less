@@ -212,3 +212,29 @@ atom-text-editor {
 .trailing-whitespace {
   display: inline-block;
 }
+
+.syntax--js {
+  .syntax--template {
+    .syntax--element {
+      .syntax--quasi.syntax--begin, .syntax--quasi.syntax--end, .syntax--language {
+        color: @pink;
+      }
+
+      .syntax--variable, .syntax--brace, .syntax--comma {
+        color: @syntax-text-color;
+      }
+
+      .syntax--constant {
+        color: @purple;
+      }
+    }
+  }
+}
+
+.syntax--json {
+  .syntax--key {
+    .syntax--string {
+      color: #a6e22e;
+    }
+  }
+}
