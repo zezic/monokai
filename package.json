@@ -6,7 +6,7 @@
   "description": "A monokai muted theme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zezic/monokai-muted-syntax.git"
+    "url": "https://github.com/zezic/monokai-muted-syntax.git"
   },
   "license": "MIT",
   "engines": {
