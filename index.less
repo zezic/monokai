@@ -4,16 +4,23 @@ atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
-  .syntax--entity.syntax--name.syntax--function,
-  .syntax--meta.syntax--require,
-  .syntax--support.syntax--function.syntax--any-method,
-  .syntax--meta.syntax--function-call,
-  .syntax--support.syntax--function,
-  .syntax--keyword.syntax--other.syntax--special-method,
-  .syntax--meta.syntax--block-level,
-  .syntax--meta.syntax--function-call.syntax--method.syntax--with-arguments .syntax--variable.syntax--function,
-  .syntax--source.syntax--js .syntax--meta.syntax--function-call.syntax--method.syntax--without-arguments.syntax--js .syntax--variable.syntax--function.syntax--js {
+  .syntax--python {
+    &.syntax--object {
       color: @light-ghost-white;
+    }
+    &.syntax--meta.syntax--arguments {
+      color: @mint;
+    }
+  }
+
+  .syntax--python.syntax--import + .syntax--python.syntax--object {
+    color: @syntax-text-color;
+  }
+
+  .syntax--js {
+    &.syntax--object:not(.syntax--delimiter) {
+      color: @light-ghost-white;
+    }
   }
 
   .syntax--punctuation,
